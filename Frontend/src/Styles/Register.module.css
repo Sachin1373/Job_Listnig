@@ -1,0 +1,116 @@
+/* Wrapper for the entire component */
+.register_wrapper {
+    height: 100vh;
+    display: flex;
+    gap: 5px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Form Wrapper */
+.form_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 60%;
+    padding-left: 12rem;
+    
+}
+
+/* Form Title */
+.form h2 {
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Subtitle under the title */
+.form span {
+    color: #666;
+    font-size: larger;
+    margin-bottom: 2rem;
+}
+
+/* Form Input Styling */
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"] {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Checkbox styling */
+.form input[type="checkbox"] {
+   
+    margin-bottom: 2.5rem;
+}
+
+/* Checkbox text */
+.form span {
+    font-size: 0.9rem;
+    color: #666;
+    margin-left: 1.5rem;
+}
+
+/* Create Account Button */
+.createbtn .btn {
+    width: 50%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #ed5353;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.createbtn .btn:hover {
+    background-color: #ff4d4d;
+}
+.already_registerd{
+    display: flex;
+    margin-top: 10px;
+}
+.already_registerd span{
+    font-size: large;
+}
+.login{
+    font-size: large;
+    cursor: pointer;
+    color: #ed5353;
+    font-weight: 500;
+    text-underline-position: below;
+}
+
+/* Image Section */
+.img {
+    width: 40%;
+    position: relative;
+}
+
+.img > img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Link below the button */
+.form a {
+    color: #333;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.form a:hover {
+    text-decoration: underline;
+}

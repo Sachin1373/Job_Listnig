@@ -1,0 +1,101 @@
+
+.nav {
+    width: 100vw;
+    height: 20vh;
+    background-color: rgba(255, 107, 107, 1);
+    border-radius: 0 0 50px 50px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin-left: 2vw;
+    font-family: DM Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.logoutView {
+    position: absolute;
+    right: 0;
+    margin-right: 2vw;
+}
+
+.logoutView>button:first-child {
+    border: none;
+    width: 7vw;
+    height: 5vh;
+    margin-right: 1vw;
+    background-color: rgba(255, 107, 107, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.logoutView>button:last-child {
+    border: none;
+    border-radius: 5px;
+    width: 7vw;
+    height: 5vh;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(237, 83, 83, 1);
+    cursor: pointer
+}
+
+.loginView {
+    position: absolute;
+    right: 0;
+    margin-right: 2vw;
+    display: flex;
+    align-items: center;
+}
+
+.loginView>span {
+    font-family: DM Sans;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.loginView>span:first-child {
+    margin-right: 2vw;
+    cursor: pointer;
+}
+
+.recruiterLogo {
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+    color: darkgreen;
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: center;
+}
