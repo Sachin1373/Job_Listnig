@@ -18,7 +18,7 @@ const Editjob = () => {
 
   const onSubmit = async (data) => {
     try {
-      const response = await fetch(`http://localhost:8000/api/v1/jobs/editJob/${jobId}`, { // Update endpoint to the correct one for editing
+      const response = await fetch(`https://job-listnig.onrender.com/api/v1/jobs/editJob/${jobId}`, { // Update endpoint to the correct one for editing
         method: 'PUT', 
         headers: {
           'Content-Type': 'application/json',

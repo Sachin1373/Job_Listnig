@@ -18,7 +18,7 @@ const JobList = ({Search}) => {
 
   useEffect(() => {
     // Fetch jobs data from backend
-    fetch('http://localhost:8000/api/v1/jobs/getjobs')
+    fetch('https://job-listnig.onrender.com/api/v1/jobs/getjobs')
       .then((response) => response.json())
       .then((data) => {
         setJobs(data.jobs)
