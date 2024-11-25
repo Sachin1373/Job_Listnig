@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import styles from "../Styles/Addjobs.module.css";
+import styles from "../Styles/AddJobs.module.ccs"
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
